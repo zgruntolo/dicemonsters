@@ -36,7 +36,6 @@ def create_pack(cards, rarity_weights):
     return chosen_card
 
 def open_pack(cards):
-    
     rarity_weights = generate_rarity_weights()
     pack = [create_pack(cards, rarity_weights) for rarity_weights in rarity_weights]
     for card in pack:
@@ -44,5 +43,4 @@ def open_pack(cards):
 
 if __name__ == "__main__":
     card_pool = create_card_pool("cards.csv")
-    
     open_pack(card_pool)
