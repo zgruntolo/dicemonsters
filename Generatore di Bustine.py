@@ -1,16 +1,18 @@
-import csv
+import json
 import random
 from enum import Enum
+from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 
 class Rarity(Enum):
-    COMMON = "Common"
-    UNCOMMON = "Uncommon"
-    RARE = "Rare"
+    COMMON = "COMMON"
+    UNCOMMON = "UNCOMMON"
+    RARE = "RARE"
 
 class Card:
     def __init__(self, name, rarity):
         self.name = name
-        self.rarity = rarity
+        self.rarity = Rarity(rarity)
 
 def generate_rarity_weights():
     return [
@@ -20,27 +22,35 @@ def generate_rarity_weights():
         [2, 2, 2]
     ]
 
-def create_card_pool(filename):
-    card_pool = {Rarity.COMMON: [], Rarity.UNCOMMON: [], Rarity.RARE: []}
-    with open(filename, newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            rarity = Rarity[row['rarity']]
-            card = Card(row['name'], rarity)
-            card_pool[rarity].append(card)
+def create_card_pool(data):
+    card_pool = defaultdict(list)
+    for entry in data:
+        rarity = Rarity(entry['rarity'])
+        card_pool[rarity].append(Card(entry['name'], rarity))
     return card_pool
 
 def create_pack(cards, rarity_weights):
-    chosen_rarity = random.choices(list(Rarity), weights=rarity_weights)[0]
-    chosen_card = random.choice(cards[chosen_rarity])
-    return chosen_card
+    pack = []
+    with ThreadPoolExecutor() as executor:
+        futures = []
+        for i, weights in enumerate(rarity_weights):
+            chosen_rarity = random.choices(list(Rarity), weights=weights)[0]
+            if cards[chosen_rarity]:
+                future = executor.submit(random.choice, cards[chosen_rarity])
+                futures.append(future)
+        for future in futures:
+            chosen_card = future.result()
+            pack.append(chosen_card)
+    return pack
 
 def open_pack(cards):
     rarity_weights = generate_rarity_weights()
-    pack = [create_pack(cards, rarity_weights) for rarity_weights in rarity_weights]
+    pack = create_pack(cards, rarity_weights)
     for card in pack:
         print(f"{card.name} - Rarity: {card.rarity.value}")
 
 if __name__ == "__main__":
-    card_pool = create_card_pool("cards.csv")
+    with open("cards.json") as json_file:
+        data = json.load(json_file)
+    card_pool = create_card_pool(data)
     open_pack(card_pool)
