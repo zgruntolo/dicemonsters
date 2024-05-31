@@ -1,0 +1,414 @@
+[
+    {
+        "name": "Melm Caramel",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Melm Magimel",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Melm Shieldmel",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Pirocinghiale",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Grenado",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Insetto Fuligine",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Explocactus",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Cacknight",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Cacbard",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Cacpriest",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Belladonna Timida",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Glicine Labirinto (Viticcio Violento)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Glicine Labirinto (Viticcio Spinoso)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Glicine Labirinto (Viticcio Radice)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Glicine Labirinto (Viticcio Protettivo)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Glicine Labirinto (Viticcio Magico)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Servobot Ripristinatore",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Servobot Manipolatore",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Servobot Assistente",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Golem da Combattimento",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Pescespina (pesce)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Pinnaculeo (pesce)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Pinnaiuto (pesce)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Pinnascudo (pesce)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "King Crab (Chela di Protezione)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "King Crab (Chela di Attacco)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "King Crab (Chela Magica)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Spargitore Micoide",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Micoide",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Micoidemante (Micoide)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Servobot Caricatore R",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Servobot Caricatore B",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Servobot Caricatore V",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "King Melm (mano del comando)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "King Melm (mano della spada)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "King Melm (mano dello scudo)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (Arto canalizzatore)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (Arto protettivo)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (Arto multiplo)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (Arto estrapolante)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (testa sacrificale)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (testa subacquea)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (testa batteria)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (magicannone)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Bambola da c. (magimortaio)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Demidrago (Testa di Fuoco)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Demidrago (Testa di Fulmine)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Demidrago (Testa di Terra)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Demidrago (Testa di Aria)",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Idrozoa",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Terrordottero",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Draco Rosso",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Draco Verde",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Darco Blu",
+        "rarity": "COMMON"
+    },
+    {
+        "name": "Melm Knightmel",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Pirocinghiale Capobranco",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Rovo Senziente",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Megaservobot Ripristinatore",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Micoide Alfa",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Micoidemante Alfa (Micoide)",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Melm Acemel",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "King Melm",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Agnello Vegetale",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Megaservobot Manipolatore",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Servobot Sabotatore",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Golem Amplificatore",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Medusa",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "King Crab",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Pescebanco (pesce)",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Bambola da combattimento",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Aviano delle Bambole",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Bambola cingolata",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Bambola da c. (magilaser)",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Demidrago",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Terrordottero Parassita",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Malocchio rosso",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Malocchio azzurro",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Malocchio verde",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Coccatrice",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Malocchio vitreo",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Terrordottero cacciacarcasse",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Demone delle Maree",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Demone Spinato",
+        "rarity": "UNCOMMON"
+    },
+    {
+        "name": "Pirocinghiale Mistico",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Dinocorno (Unicorno)",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Fogliacorno (Unicorno)",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Glicine Labirinto",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Robocorno (Unicorno)",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Narvacorno (Unicorno)",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Spinalodonte (pesce)",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Pegacorno (Unicorno)",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Spargitore Micoide Supremo",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Acchiappadraghi",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Golem Fortezza",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Tigre Bianca",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Demidrago Meccanico",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Arcanum del Cancello",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Arcanum del Cielo",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Arcanum del Forgia",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Arcanum del Gelo",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Demone del Baratto",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Demone del Sacrificio",
+        "rarity": "RARE"
+    },
+    {
+        "name": "Demone delle Ombre",
+        "rarity": "RARE"
+    }
+]
